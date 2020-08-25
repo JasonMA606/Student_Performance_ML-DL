@@ -1,7 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Student_Performance_Analysis
-<div style="text-align: right">Udacity Machine Learning Nanodegree, Final Project, August 2020</div>
-<div style="text-align: right">Author: JasonM</div>
 
 ## Abount this project
 In this project, I dive into a student grades dataset from a Portuguese high school. I tried to figure out what behaviors or features impact students’ grades most. Would it be the same with many parents’ opinions that exists some “bad” activities cause a decrease in grades. In the beginning, I pick a little data and assume a null-hypothesis and alternative-hypothesis set. By modeling the data and using a single-tailed Binomial Distribution examination, I get the conclusion with data. Then, I replace the dataset with all background information to find out the top 10 important behaviors or features in the dataset. Inspiring by the result of permutation feature importance, I decided to add past grades into the dataset and try to increase the difficulty. From Pass/ Fail binary classification, to 5 levels multi-label classification, actual score prediction in the end.
